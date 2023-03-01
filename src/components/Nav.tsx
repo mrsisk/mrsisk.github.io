@@ -3,8 +3,8 @@ import { ReactComponent as Logo } from "../assets/custom/sisk.svg";
 
 export default function Nav() {
   return (
-    <nav className="relative py-4 px-2">
-      <div className="flex justify-between items-center container md:pt- mx-auto">
+    <nav className="relativ py-4 px-2">
+      <div className="flex justify-between items-center containe md:pt- mx-auto">
         <button className="">
           <Logo className="h-10 w-10 lg:h-12 lg:w-12" />
         </button>

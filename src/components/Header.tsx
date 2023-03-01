@@ -1,31 +1,39 @@
+import { motion } from "framer-motion";
 import React from "react";
-import profile from "../assets/custom/rec.png";
+import profile from "../assets/custom/head.png";
 import Nav from "./Nav";
 
 export default function Header() {
   return (
-    <section className="relative pb-20 bg-gray-800 overflow-hidden ">
+    <section className="md:h-[90vh]">
       {/* Nva */}
-      <Nav />
-      <div className="relative container px-4 pt-6 md:pt-6 mx-auto">
-        <div className="relative flex flex-wrap -mx-4">
-          <div className="w-full md:w-1/2 2xl:w-2/5 px-4">
-            <div className="flex flex-col items-start">
-              <span className="text-xl lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600">
+
+      <div className="px-4 pt-6 md:pt-6 mx-auto ">
+        <div className="flex flex-wrap -mx-4">
+          <div className="w-full md:w-1/2 2xl:w-2/5 px-4 flex flex-col justify-evenly ">
+            <div className="flex flex-col items-center">
+              <span className="text-xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600">
                 Hello world!
               </span>
-              <h2 className="max-w-lg lg:max-w-md 2xl:max-w-none mt-2 mb-4 mb:mb-20 text-4xl lg:text-6xl 2xl:text-9xl text-white font-bold font-heading text-start">
+              <h2 className="max-w-lg lg:max-w-md 2xl:max-w-none mt-2 mb-4 mb:mb-20 text-4xl lg:text-6xl 2xl:text-9xl text-white font-bold font-heading text-center">
                 My name is Gabriel Machona
               </h2>
-              <p className="mb-4 lg:mb-24 text-lg text-white opacity-90 text-start">
+            </div>
+            <div className="">
+              <motion.p
+                animate={{ x: 0 }}
+                initial={{ x: -200 }}
+                transition={{ ease: "easeOut", duration: 2 }}
+                className="mb-4 lg:mb-2 text-lg lg:text-2xl text-white opacity-90 text-center"
+              >
                 I’m a software engineer specializing in building (and
                 occasionally designing) exceptional digital experiences.
                 Currently, I’m focused on building accessible, human-centered
-                products at
-              </p>
+                products at 
+              </motion.p>
             </div>
 
-            <div className="flex flex-wrap items-center hidde w-full  pb-6 md:pb-0">
+            <div className="flex flex-wrap items-center hidd w-full pb- md:pb-0 justify-center">
               <a
                 className="inline-block px-8 py-4 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200"
                 href="#"
@@ -34,13 +42,17 @@ export default function Header() {
               </a>
             </div>
           </div>
-          <div className="w-full md:w-1/2 2xl:w-3/5 px-4 py-4 md:py-0">
-            <img className="w-full h-full object-cover" src={profile} alt="" />
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1 }}
+            className="w-full md:w-1/2 2xl:w-3/5 px-4 py-4 md:py-0 flex justify-center"
+          >
+            <img className=" object-cover" src={profile} alt="" />
             {/* <Art
                   className="w-auto h-auto"           
                 /> */}
-          </div>
-
+          </motion.div>
         </div>
       </div>
       <div className="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
