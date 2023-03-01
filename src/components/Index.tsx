@@ -10,8 +10,7 @@ export default function Index() {
         <section className="relative pb-20 bg-gray-800 overflow-hidden">
           <div className="absolute bottom-0 inset-x-0 h-full bg-gradient-zospace-1"></div>
           <div className="absolute bottom-0 inset-x-0 h-3/5 w-2full -ml-64 -mb-12 bg-gradient-zospace-2 transform -rotate-6"></div>
-          {/* Nva */}
-          <Nav/>
+
           <div className="relative container px-4 pt-12 md:pt-20 mx-auto">
             <div className="hidden 2xl:block absolute bottom-0 w-3/5 mb-40 h-2 border-b border-white"></div>
             <div className="relative flex flex-wrap -mx-4">
@@ -30,7 +29,7 @@ export default function Index() {
                     className="inline-block mr-14 px-12 py-5 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200"
                     href="#"
                   >
-                   Resume
+                    Resume
                   </a>
                   <div className="w-full sm:w-auto mt-8 sm:mt-0 flex">
                     <button className="p-2">

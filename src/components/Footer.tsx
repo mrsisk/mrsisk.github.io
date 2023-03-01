@@ -9,6 +9,7 @@ export default function Footer() {
       <FaGithub className="" size={32}></FaGithub>
       <FaLinkedin size={32} />
       <FaTwitter size={32}/>
+      
     </div>
   );
 }

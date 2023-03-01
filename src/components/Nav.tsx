@@ -1,7 +1,8 @@
 import React from 'react'
 import { ReactComponent as Logo } from "../assets/custom/sisk.svg";
 
-export default function Nav() {
+export default function Nav(props: {toggle: ()=> void}) {
+  const {toggle} = props
   return (
     <nav className="relativ py-4 px-2">
       <div className="flex justify-between items-center containe md:pt- mx-auto">
@@ -32,7 +33,7 @@ export default function Nav() {
           </a>
         </div>
         <div className='md:hidden'>
-          <button className=" navbar-burger">
+          <button onClick={toggle} className=" navbar-burger">
             <svg
               className="w-10 h-3"
               width="39"
