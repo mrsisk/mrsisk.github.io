@@ -10,7 +10,7 @@ export default function ProjectCard(props: {project: Project}) {
       href={project.link}
       target="_blank"
       rel="noreferrer"
-      className="relative w-full lg:w-1/3 px-4"
+      className="relative w-full lg:w-1/3 px-4 py-4"
     >
       <img
         className="hidden lg:block absolute top-0 left-0 -ml-14 mt-24"
@@ -29,7 +29,7 @@ export default function ProjectCard(props: {project: Project}) {
             <p className="text-xs uppercase text-gray-800">Feb</p>
           </div>
         </div>
-        <div className="px-14 pb-10 h-56 overflow-hidden">
+        <div className="px-14 pb-10 lg:h-56 lg:overflow-hidden">
           <div className="inline-block pt-4 text-lg text-white hover:text-gray-100  border-t border-gray-400">
             <p className="">{project.subtitle}</p>
           </div>
