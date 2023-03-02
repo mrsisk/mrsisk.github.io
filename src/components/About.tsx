@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className="py-4 2xl:py-6 overflow-hidden">
+    <section className="py-4 2xl:py-6 overflow-hidden mt-4">
       <div className="container px-4 mx-auto">
     
         <div className="max-w-x mx-auto text-center">

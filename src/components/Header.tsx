@@ -1,16 +1,12 @@
 import { motion } from "framer-motion";
 import profile from "../assets/custom/head.png";
-import Sidebar from "./Sidebar";
+import { useAppContext } from "../context/AppContext";
 
 
-export default function Header(props: {isOpen: boolean, toggle: ()=> void}) {
-
-  const {isOpen,toggle} = props
-  
+export default function Header() {
+  const {resume} = useAppContext()
   return (
-    <section className="md:h-[90vh]">
-      {/* Nva */}
-
+    <section className="lg:h-[80vh]">
       <div className="px-4 pt-6 md:pt-6 mx-auto ">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/2 2xl:w-2/5 px-4 flex flex-col justify-evenly ">
@@ -18,7 +14,7 @@ export default function Header(props: {isOpen: boolean, toggle: ()=> void}) {
               <span className="text-xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600">
                 Hello world!
               </span>
-              <h2 className="max-w-lg lg:max-w-md 2xl:max-w-none mt-2 mb-4 mb:mb-20 text-4xl lg:text-6xl 2xl:text-9xl text-white font-bold font-heading text-center">
+              <h2 className="max-w-lg lg:max-w-md 2xl:max-w-none mt-2 mb-4 mb:mb-20 text-4xl lg:text-4xl 2xl:text-6xl text-white font-bold font-heading text-center">
                 My name is Gabriel Machona
               </h2>
             </div>
@@ -37,9 +33,13 @@ export default function Header(props: {isOpen: boolean, toggle: ()=> void}) {
             </div>
 
             <div className="flex flex-wrap items-center hidd w-full pb- md:pb-0 justify-center">
-              <button className="inline-block px-8 py-4 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200">
+              <a
+                href={resume}
+                download
+                className="inline-block px-8 py-4 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200"
+              >
                 Resume
-              </button>
+              </a>
             </div>
           </div>
           <motion.div

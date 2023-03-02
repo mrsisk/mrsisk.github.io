@@ -4,11 +4,11 @@ import website from "../assets/custom/wesite_snap.png";
 
 export default function Content() {
   return (
-    <section className="py-4 2xl:py-40 bg-gray-800 overflow-hidden ">
+    <section className="py-4 overflow-hidden mt-4">
       <div className="container px-4 mx-auto">
-        <div className="text-xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600 pb-4">
+        {/* <div className="text-xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600 pb-4">
           What i do?
-        </div>
+        </div> */}
         <div className="flex flex-wrap -mx-4 mb-8">
           <div className="relative w-full md:w-1/2 px-4 mb-8 lg:mb-0">
             <a href="#">
@@ -24,7 +24,7 @@ export default function Content() {
               Mobile applications
             </span>{" "}
             <div className="">
-              <h2 className="mt-8 mb-4 text-4xl lg:text-4xl font-bold font-heading text-white">
+              <h2 className="mt-8 sm:mt-4 mb-4 text-4xl lg:text-4xl font-bold font-heading text-white">
                 I build mobile applications from android native, to cross
                 platform with flutter
               </h2>
@@ -37,7 +37,7 @@ export default function Content() {
               Web application
             </span>{" "}
             <div>
-              <h2 className="mt-10 mb-8 text-4xl lg:text-4xl font-bold font-heading text-white">
+              <h2 className="mt-8 sm:mt-4  mb-4 text-4xl lg:text-4xl font-bold font-heading text-white">
                 Web applications to help mordenize your business
               </h2>
             </div>

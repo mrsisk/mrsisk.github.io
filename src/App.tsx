@@ -1,36 +1,35 @@
-import { useState } from "react";
+
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import About from "./components/About";
-import Content from "./components/Content";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
 import Nav from "./components/Nav";
-import Projects from "./components/Projects";
 import { Toolbar } from "./components/Toolbar";
+import { AppProvider } from "./context/AppContext";
+import { ProjectProvider } from "./context/ProjectContext";
+import AboutPage from "./pages/AboutPage";
+import Home from "./pages/Home";
+import ProjectsPage from "./pages/ProjectsPage";
+
 
 function App() {
 
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => {
-
-   setIsOpen(!isOpen)
-  }
   return (
-    <div className="bg-gray-800 min-h-screen ">
-      <header className="sticky top-0 z-50">
-        <Nav toggle={toggle} />
-      </header>
-      <main className="">
-        <Header isOpen={isOpen} toggle={toggle} />
-        <Toolbar isOpen={isOpen} toggle={toggle}></Toolbar>
-        <Content />
-        <Projects />
-        <About />
-
-        <Footer />
-      </main>
-    </div>
+    <AppProvider>
+      <ProjectProvider>
+        <div className="bg-gray-900 min-h-screen ">
+          <header className="sticky top-0 z-50">
+            <Nav />
+          </header>
+          <Toolbar></Toolbar>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/about" element={<AboutPage />} />
+          </Routes>
+          <Footer />
+        </div>
+      </ProjectProvider>
+    </AppProvider>
   );
 }
 
