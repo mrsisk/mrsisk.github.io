@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
+import SmoothScroll from "./components/SmoothScroll";
 import { Toolbar } from "./components/Toolbar";
 import { AppProvider } from "./context/AppContext";
 import { ProjectProvider } from "./context/ProjectContext";
@@ -21,11 +22,13 @@ function App() {
             <Nav />
           </header>
           <Toolbar></Toolbar>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-            <Route path="/about" element={<AboutPage />} />
-          </Routes>
+          <SmoothScroll>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/projects" element={<ProjectsPage />} />
+              <Route path="/about" element={<AboutPage />} />
+            </Routes>
+          </SmoothScroll>
           <Footer />
         </div>
       </ProjectProvider>

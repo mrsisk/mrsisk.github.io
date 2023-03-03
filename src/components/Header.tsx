@@ -11,10 +11,10 @@ export default function Header() {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/2 2xl:w-2/5 px-4 flex flex-col justify-evenly ">
             <div className="flex flex-col items-center">
-              <span className="text-xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600">
+              <span className="text-xl lg:text-4xl font-turret font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600">
                 Hello world!
               </span>
-              <h2 className="max-w-lg lg:max-w-md 2xl:max-w-none mt-2 mb-4 mb:mb-20 text-4xl lg:text-4xl 2xl:text-6xl text-white font-bold font-heading text-center">
+              <h2 className="max-w-lg lg:max-w-md 2xl:max-w-none mt-2 mb-4 mb:mb-20 text-4xl lg:text-4xl 2xl:text-6xl text-white font-turret font-heading text-center">
                 My name is Gabriel Machona
               </h2>
             </div>
