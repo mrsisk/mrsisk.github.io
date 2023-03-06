@@ -24,8 +24,7 @@ export function AppProvider(props: { children: ReactNode }) {
   };
 
   const mailTo = () => {
-    window.open("mailto:siskmusik@gmail.com");
-    console.log("mail to");
+    window.open("mailto:gabrielmachona@gmail.com");
   };
 
   return (
