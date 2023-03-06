@@ -2,6 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { ReactComponent as Logo } from "../assets/custom/sisk.svg";
 import { useAppContext } from "../context/AppContext";
+import { RiMenu3Fill} from "react-icons/ri";
 
 export default function Nav() {
   const { toggleSideBar, mailTo, } = useAppContext();
@@ -37,30 +38,16 @@ export default function Nav() {
           >
             About
           </NavLink>
-          <button onClick={mailTo} className="inline-block px-10 py-2 text-white font-bold border border-gray-200 hover:border-white rounded-full">
+          <button
+            onClick={mailTo}
+            className="inline-block px-10 py-2 text-white font-bold border border-gray-200 hover:border-white rounded-full"
+          >
             Contact
           </button>
         </div>
         <div className="md:hidden">
           <button onClick={toggleSideBar} className=" navbar-burger">
-            <svg
-              className="w-10 h-3"
-              width="39"
-              height="13"
-              viewBox="0 0 39 13"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect width="39" height="2" rx="1" fill="#C4C4C4"></rect>
-              <rect
-                x="19"
-                y="11"
-                width="20"
-                height="2"
-                rx="1"
-                fill="#C4C4C4"
-              ></rect>
-            </svg>
+            <RiMenu3Fill className="text-white" size={28} />
           </button>
         </div>
       </div>

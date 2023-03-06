@@ -10,14 +10,14 @@ export default function Footer() {
         <FaGithub size={32} />
       </a>
       <a
-        href="https://www.linkedin.com/in/gabriel-machona-616b36266/"
+        href="https://www.linkedin.com/in/gabrielmachona/"
         target="_blank"
         rel="noreferrer"
       >
         <FaLinkedin size={32} />
       </a>
 
-      <a href="https://twitter.com/SiskDev" target="_blank" rel="noreferrer">
+      <a href="https://twitter.com/gabrielmachona" target="_blank" rel="noreferrer">
         <FaTwitter size={32} />
       </a>
     </div>

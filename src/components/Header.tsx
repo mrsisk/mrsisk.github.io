@@ -25,10 +25,7 @@ export default function Header() {
                 transition={{ ease: "easeOut", duration: 2 }}
                 className="mb-4 lg:mb-2 text-lg lg:text-2xl text-white opacity-90 text-center"
               >
-                I’m a software engineer specializing in building (and
-                occasionally designing) exceptional digital experiences.
-                Currently, I’m focused on building accessible, human-centered
-                products at
+                I’m a software engineer who is very passonate about developing software. I enjoy working with different technologies to create produts that can help simplify our daily lives.
               </motion.p>
             </div>
 

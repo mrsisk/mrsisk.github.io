@@ -88,7 +88,7 @@ export function Toolbar() {
                       <FaGithub size={28} />
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/gabriel-machona-616b36266/"
+                      href="https://www.linkedin.com/in/gabrielmachona/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -96,7 +96,7 @@ export function Toolbar() {
                     </a>
 
                     <a
-                      href="https://twitter.com/SiskDev"
+                      href="https://twitter.com/gabrielmachona"
                       target="_blank"
                       rel="noreferrer"
                     >

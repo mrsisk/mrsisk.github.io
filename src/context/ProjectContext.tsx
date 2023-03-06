@@ -46,7 +46,7 @@ export function getProjets(): Project[] {
       subtitle:
         "Appoint application API, for custom user registration written with Spring boot java",
       image:
-        "https://images.unsplash.com/photo-1623282033815-40b05d96c903?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+        "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/_fgHDgALvF3y-ifkUFnoYb63-IQ1bP5y7xfMNiuDi3JVIIl0o3NjKPGkDmUDhnk7/n/axmxoyufzvax/b/bucket/o/springspring.jpg",
       category: ProjectCategory.OTHERS,
       link: "https://github.com/mrsisk/appoint-api",
     },
@@ -61,8 +61,10 @@ export function getProjets(): Project[] {
     {
       id: "4",
       description: "",
-      subtitle: "Personal portfolio website build with Reactjs and tailwind css",
-      image: "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/NDKB4nOPYD_KmLUNzwt0pFRn97kAgkoCyVvo0EUumXo67Z2zZg0ekNKbe4OG6Xjc/n/axmxoyufzvax/b/bucket/o/Screenshot%202023-03-02%20232822.png",
+      subtitle:
+        "Personal portfolio website build with Reactjs and tailwind css",
+      image:
+        "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/NDKB4nOPYD_KmLUNzwt0pFRn97kAgkoCyVvo0EUumXo67Z2zZg0ekNKbe4OG6Xjc/n/axmxoyufzvax/b/bucket/o/Screenshot%202023-03-02%20232822.png",
       category: ProjectCategory.WEB,
       link: "",
     },
