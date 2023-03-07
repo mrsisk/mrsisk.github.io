@@ -25,23 +25,32 @@ export default function About() {
           </div>
           <div className="max-w-6xl mx-auto text-center ">
             <p className="mb-6  text-xl text-gray-200 ">
-              Iam Software engineer with couple of years of experience in
-              programming and software development. Started as self thought
-              developer although now iam part-time doing my Bachelor of science
-              in Software engineering honors and expecting to graduate in 2025. I
-              enjoy writing code and solving problems. My favourate programming
-              language is Kotlin, however, i do enjoy developing with other
-              languages such as Java, JavaScript, Elixir and Typescript etc.
+              I Am a Software engineer with a couple of years of experience in
+              programming and software development. Started as a self taught
+              developer, however now on part-time I am doing my Bachelor of
+              science in Software engineering honors and expecting to graduate
+              in 2025. I enjoy writing code and solving problems. My favorite
+              programming language is Kotlin, however, I do enjoy developing
+              with other languages such as Java, JavaScript, Elixir and
+              Typescript etc.
             </p>
             <p className="mb-6  text-xl text-gray-200">
               Started my journey primarily focused on Android native development
-              with Java. However, because iam very passonate about learning new things
-              and diversifying, over the years i have expanded my knowledge to
-              many other areas such as web development, both frontend and
-              backend.
+              with Java. However, because I am very passionate about learning
+              new things and diversifying, over the years I have expanded my
+              knowledge to many other areas such as web development, both
+              frontend and backend.
             </p>
             <p className="mb-6  text-xl text-gray-200">
-              I have experience in andriod native using both the older views system and modern jetpack compose, and cross platform applications using dart and Flutter framework. In terms of backend technologies, i have experience working with Spring boot (both java and kotlin), Express (NodeJs), NestJs etc. I have also worked heavily with Phoenix framework and Elixir language to build web applications. My experience is not just limited to the above mentioned, some noteworthy technologies include ReactJs, VueJs, Ktor, Tailwind CSS and many more...
+              I have experience in android native using both the older views
+              system and modern jetpack compose, and cross platform applications
+              using dart and Flutter framework. In terms of backend
+              technologies, I have experience working with Spring boot (both
+              java and kotlin), Express (NodeJs), NestJs etc. I have also worked
+              heavily with Phoenix framework and Elixir language to build web
+              applications. My experience is not just limited to the above
+              mentioned, some noteworthy technologies include ReactJs, VueJs,
+              Ktor, Tailwind CSS and many more...
             </p>
           </div>
         </div>

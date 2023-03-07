@@ -24,10 +24,7 @@ export default function ProjectCard(props: {project: Project}) {
             src={project.image}
             alt=""
           />
-          <div className="absolute bottom-0 left-0 ml-8 mb-6 px-3 pb-3 pt-1 inline-block bg-white rounded-b-2xl border-t-4 border-blue-500">
-            <p className="text-xl font-bold">29</p>
-            <p className="text-xs uppercase text-gray-800">Feb</p>
-          </div>
+          
         </div>
         <div className="px-14 pb-10 lg:h-56 lg:overflow-hidden">
           <div className="inline-block pt-4 text-lg text-white hover:text-gray-100  border-t border-gray-400">
