@@ -1,7 +1,6 @@
-import React from 'react'
 import { Project } from '../context/ProjectContext';
 import line from '../assets/lines/right-line.svg'
-import { Link } from 'react-router-dom';
+
 
 export default function ProjectCard(props: {project: Project}) {
     const {project} = props
