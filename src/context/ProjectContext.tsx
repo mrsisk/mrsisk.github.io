@@ -1,5 +1,5 @@
 import { createContext, ReactNode, useContext, useState } from "react";
-import x from "../assets/custom/mockup.png";
+
 
 export enum ProjectCategory {
   MOBILE,
