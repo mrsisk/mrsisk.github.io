@@ -51,22 +51,13 @@ export function getProjets(): Project[] {
       link: "https://github.com/mrsisk/appoint-api",
     },
     {
-      id: "3",
-      description: "",
-      subtitle: "Website for a software development company, using Astro.js",
-      image: "https://i.ibb.co/HB46CTL/Screenshot-20230301-041841.png",
-      category: ProjectCategory.WEB,
-      link: "https://github.com/mrsisk/website",
-    },
-    {
       id: "4",
       description: "",
-      subtitle:
-        "Personal portfolio website build with Reactjs and tailwind css",
+      subtitle: "Appoint dashboard. Build with ReactJs to manage appointments.",
       image:
-        "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/NDKB4nOPYD_KmLUNzwt0pFRn97kAgkoCyVvo0EUumXo67Z2zZg0ekNKbe4OG6Xjc/n/axmxoyufzvax/b/bucket/o/Screenshot%202023-03-02%20232822.png",
+        "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/guQO4edOiNDq7iRv1xamxiSXaIkNmvqD8M2oqssRhS6AUw7rFQueLcOGIuQ_7UrY/n/axmxoyufzvax/b/bucket/o/adminadmin.jpg",
       category: ProjectCategory.WEB,
-      link: "",
+      link: "https://github.com/mrsisk/appoint-admin",
     },
   ];
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import banner from "../assets/custom/mockup.png";
 import website from "../assets/custom/wesite_snap.png";
-import dash from "../assets/custom/dash.png"
+import dash from "../assets/custom/admin.jpg"
 
 export default function Content() {
   return (
@@ -49,13 +49,13 @@ export default function Content() {
           </div>
           <div className="relative w-full md:w-1/2 px-4 mb-8 lg:mb-0 order-first lg:order-last">
             <a
-              href="ttps://github.com/mrsisk/appoint-api"
+              href="https://github.com/mrsisk/appoint-admin"
               target="_blank"
               rel="noreferrer"
             >
               <img
                 className="lg:absolute right-0 top-0 lg:-mr-32 2xl:-mr-64 w-full h-64 lg:h-full object-cover rounded-lg"
-                src={dash}
+                src="https://objectstorage.af-johannesburg-1.oraclecloud.com/p/guQO4edOiNDq7iRv1xamxiSXaIkNmvqD8M2oqssRhS6AUw7rFQueLcOGIuQ_7UrY/n/axmxoyufzvax/b/bucket/o/adminadmin.jpg"
                 alt=""
               />
             </a>
