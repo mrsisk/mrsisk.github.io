@@ -1,7 +1,5 @@
-import React from "react";
 import banner from "../assets/custom/mockup.png";
-import website from "../assets/custom/wesite_snap.png";
-import dash from "../assets/custom/admin.jpg"
+
 
 export default function Content() {
   return (
@@ -43,7 +41,7 @@ export default function Content() {
             </span>{" "}
             <div>
               <h2 className="mt-8 sm:mt-4  mb-4 text-4xl lg:text-4xl font-bold font-heading text-white">
-                Web applications to help increase your productivity
+                Custom web applications that suit your need and help increase your productivity
               </h2>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import TechStack from './TechStack';
 
 export default function About() {
   return (
@@ -55,6 +56,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <TechStack/>
     </section>
   );
 }

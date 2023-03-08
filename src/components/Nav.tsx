@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { ReactComponent as Logo } from "../assets/custom/sisk.svg";
 import { useAppContext } from "../context/AppContext";

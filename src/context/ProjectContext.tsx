@@ -34,7 +34,7 @@ export function getProjets(): Project[] {
       id: "1",
       description: "",
       subtitle:
-        "Android native application, for your clients to book an appointment,written in kotlin",
+        "An appointment booking application, where all your clients can see your schedules and book an appointment within the avialable time periods. Application written in Kotlin",
       image:
         "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/n-R7mv8wp65Cl9BI7_n4Ns2B8FKmCwCGm7FWvVSCQusmdJyg8MgcWuuTI8IB-xQ-/n/axmxoyufzvax/b/bucket/o/appoint_mockupmockup_new.png",
       category: ProjectCategory.MOBILE,
@@ -44,7 +44,7 @@ export function getProjets(): Project[] {
       id: "2",
       description: "",
       subtitle:
-        "Appoint application API, for custom user registration written with Spring boot java",
+        "API that serves Appoint mobile application and admin dashboard. It provides services such as user registration, authentication, scheduling, booking etc. API is written with spring boot (Java).",
       image:
         "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/_fgHDgALvF3y-ifkUFnoYb63-IQ1bP5y7xfMNiuDi3JVIIl0o3NjKPGkDmUDhnk7/n/axmxoyufzvax/b/bucket/o/springspring.jpg",
       category: ProjectCategory.OTHERS,
@@ -53,7 +53,8 @@ export function getProjets(): Project[] {
     {
       id: "4",
       description: "",
-      subtitle: "Appoint dashboard. Build with ReactJs to manage appointments.",
+      subtitle:
+        "Appoint admin dashboard is used by the administrator to manage all the services provided such as bookings, client accounts etc. Admin dashboard is written with React.js (Typescript).",
       image:
         "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/guQO4edOiNDq7iRv1xamxiSXaIkNmvqD8M2oqssRhS6AUw7rFQueLcOGIuQ_7UrY/n/axmxoyufzvax/b/bucket/o/adminadmin.jpg",
       category: ProjectCategory.WEB,

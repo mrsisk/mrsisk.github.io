@@ -8,7 +8,6 @@ function SmoothScroll(props: { children: ReactNode }) {
   useEffect(() => {
     console.log("scroll")
     if (navType !== "POP") {
-        console.log("scroll is pop");
       window.scrollTo({
         top: 0,
         behavior: "smooth",

@@ -16,14 +16,13 @@ export default function ProjectCard(props: {project: Project}) {
         src={line}
         alt=""
       />
-      <div className="relative z-10 lg:mt-8 lg:mb-8 rounded-lg bg-gray-800">
+      <div className="relative z-10 lg:mt-8 lg:mb-8 rounded-lg bg-gray-800 hover:bg-gray-700">
         <div className="relative mb-8 h-52">
           <img
             className="w-full h-full rounded-lg object-cover"
             src={project.image}
             alt=""
           />
-          
         </div>
         <div className="px-14 pb-10 lg:h-56 lg:overflow-hidden">
           <div className="inline-block pt-4 text-lg text-white hover:text-gray-100  border-t border-gray-400">
