@@ -36,7 +36,7 @@ export function getProjets(): Project[] {
       subtitle:
         "An appointment booking application, where all your clients can see your schedules and book an appointment within the avialable time periods. Application written in Kotlin",
       image:
-        "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/n-R7mv8wp65Cl9BI7_n4Ns2B8FKmCwCGm7FWvVSCQusmdJyg8MgcWuuTI8IB-xQ-/n/axmxoyufzvax/b/bucket/o/appoint_mockupmockup_new.png",
+        "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/m304ewu5ejNWSdoLXIKwNVMxTk3EDVqZzY-UqKb4B3nVaiqMYcNOTErrdk5kRnRK/n/axmxoyufzvax/b/bucket/o/appoint_mockupmockup_new.png",
       category: ProjectCategory.MOBILE,
       link: "https://github.com/mrsisk/appoint",
     },
