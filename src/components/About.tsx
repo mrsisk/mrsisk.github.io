@@ -10,7 +10,7 @@ export default function About() {
             About me!
           </h2>
           <p className="max-w-2xl mx-auto mb-6 text-xl text-gray-200">
-            A summary about myself my journey
+            A summary about myself and my journey
           </p>
           <div className="inline-flex pt-4 mb-4 items-center border-t border-gray-500">
             <img
