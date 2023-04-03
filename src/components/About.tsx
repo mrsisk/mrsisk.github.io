@@ -15,7 +15,7 @@ export default function About() {
           <div className="inline-flex pt-4 mb-4 items-center border-t border-gray-500">
             <img
               className="mr-8 w-20 lg:w-24 h-20 lg:h-24 rounded-full"
-              src="https://objectstorage.af-johannesburg-1.oraclecloud.com/p/wtpe_0lKnJ6G6sCQ_2CSse5GsgXC8r-J1QfAEmaj1Zt1D_kXNgMfOCBeVw2_6K7Z/n/axmxoyufzvax/b/bucket/o/profile20230306_101759.jpg"
+              src="https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/20230306_101759.jpg?alt=media&token=112dfd59-bdde-45dc-9016-5bce0eed11fa"
               alt=""
             />
             <div className="text-left">
@@ -56,7 +56,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <TechStack/>
+      <TechStack />
     </section>
   );
 }

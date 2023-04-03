@@ -36,7 +36,7 @@ export function getProjets(): Project[] {
       subtitle:
         "An appointment booking application, where all your clients can see your schedules and book an appointment within the avialable time periods. Application written in Kotlin",
       image:
-        "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/m304ewu5ejNWSdoLXIKwNVMxTk3EDVqZzY-UqKb4B3nVaiqMYcNOTErrdk5kRnRK/n/axmxoyufzvax/b/bucket/o/appoint_mockupmockup_new.png",
+        "https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/mockup_new.png?alt=media&token=3a58d556-f39e-44ea-8160-3c5a93a91b4a",
       category: ProjectCategory.MOBILE,
       link: "https://github.com/mrsisk/appoint",
     },
@@ -46,7 +46,7 @@ export function getProjets(): Project[] {
       subtitle:
         "API that serves Appoint mobile application and admin dashboard. It provides services such as user registration, authentication, scheduling, booking etc. API is written with spring boot (Java).",
       image:
-        "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/_fgHDgALvF3y-ifkUFnoYb63-IQ1bP5y7xfMNiuDi3JVIIl0o3NjKPGkDmUDhnk7/n/axmxoyufzvax/b/bucket/o/springspring.jpg",
+        "https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/spring.jpg?alt=media&token=139bb775-f4d2-4ce0-ae92-98c6266d359e",
       category: ProjectCategory.OTHERS,
       link: "https://github.com/mrsisk/appoint-api",
     },
@@ -56,7 +56,7 @@ export function getProjets(): Project[] {
       subtitle:
         "Appoint admin dashboard is used by the administrator to manage all the services provided such as bookings, client accounts etc. Admin dashboard is written with React.js (Typescript).",
       image:
-        "https://objectstorage.af-johannesburg-1.oraclecloud.com/p/guQO4edOiNDq7iRv1xamxiSXaIkNmvqD8M2oqssRhS6AUw7rFQueLcOGIuQ_7UrY/n/axmxoyufzvax/b/bucket/o/adminadmin.jpg",
+        "https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/admin.jpg?alt=media&token=b9ce4861-0463-499f-a975-561ac9cf3c66",
       category: ProjectCategory.WEB,
       link: "https://github.com/mrsisk/appoint-admin",
     },

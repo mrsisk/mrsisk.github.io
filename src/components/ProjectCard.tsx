@@ -24,7 +24,7 @@ export default function ProjectCard(props: {project: Project}) {
             alt=""
           />
         </div>
-        <div className="px-14 pb-10 lg:h-56 lg:overflow-hidden">
+        <div className="px-14 pb-10 lg:h-60 lg:overflow-hidden">
           <div className="inline-block pt-4 text-lg text-white hover:text-gray-100  border-t border-gray-400">
             <p className="">{project.subtitle}</p>
           </div>

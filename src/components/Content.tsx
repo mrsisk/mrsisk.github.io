@@ -41,7 +41,8 @@ export default function Content() {
             </span>{" "}
             <div>
               <h2 className="mt-8 sm:mt-4  mb-4 text-4xl lg:text-4xl font-bold font-heading text-white">
-                Custom web applications that suit your need and help increase your productivity
+                Custom web applications that suit your need and help increase
+                your productivity
               </h2>
             </div>
           </div>
@@ -53,7 +54,7 @@ export default function Content() {
             >
               <img
                 className="lg:absolute right-0 top-0 lg:-mr-32 2xl:-mr-64 w-full h-64 lg:h-full object-cover rounded-lg"
-                src="https://objectstorage.af-johannesburg-1.oraclecloud.com/p/guQO4edOiNDq7iRv1xamxiSXaIkNmvqD8M2oqssRhS6AUw7rFQueLcOGIuQ_7UrY/n/axmxoyufzvax/b/bucket/o/adminadmin.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/admin.jpg?alt=media&token=b9ce4861-0463-499f-a975-561ac9cf3c66"
                 alt=""
               />
             </a>
