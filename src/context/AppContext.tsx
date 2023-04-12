@@ -17,7 +17,7 @@ export function AppProvider(props: { children: ReactNode }) {
   const { children } = props;
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const resume =
-    "https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/Gabriel%20CV.pdf?alt=media&token=534d3978-96b6-4b6f-aa6b-63ecc4373319";
+    "https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/Gabriel_resume.pdf?alt=media&token=e2fd9609-1c0b-427c-a507-56f48feda4d1";
 
   const toggleSideBar = () => {
     setIsSidebarOpen(!isSidebarOpen);
