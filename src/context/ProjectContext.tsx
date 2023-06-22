@@ -31,6 +31,15 @@ export function useProjectContext() {
 export function getProjets(): Project[] {
   return [
     {
+      id: "0",
+      description: "",
+      subtitle:
+        "Experimental Api written in elixir language using Ash framework and plug for web server",
+      image: "https://ash-hq.org/images/ash-logo-side.svg",
+      category: ProjectCategory.OTHERS,
+      link: "https://github.com/mrsisk/bus_api",
+    },
+    {
       id: "1",
       description: "",
       subtitle:
