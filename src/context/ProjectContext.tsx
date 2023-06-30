@@ -53,11 +53,11 @@ export function getProjets(): Project[] {
       id: "2",
       description: "",
       subtitle:
-        "API that serves Appoint mobile application and admin dashboard. It provides services such as user registration, authentication, scheduling, booking etc. API is written with spring boot (Java).",
+        "Microservices written in Java and kotlin to provide services such as scheduling, booking, user registration, authentication etc.",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/spring.jpg?alt=media&token=139bb775-f4d2-4ce0-ae92-98c6266d359e",
+        "https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/Appint%20services.png?alt=media&token=63b6ffc3-085e-4974-a181-27163be713da",
       category: ProjectCategory.OTHERS,
-      link: "https://github.com/mrsisk/appoint-api",
+      link: "https://github.com/mrsisk/appoint-services",
     },
     {
       id: "4",
