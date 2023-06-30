@@ -54,7 +54,7 @@ export default function Content() {
             >
               <img
                 className="lg:absolute right-0 top-0 lg:-mr-32 2xl:-mr-64 w-full h-64 lg:h-full object-cover rounded-lg"
-                src="https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/admin.jpg?alt=media&token=b9ce4861-0463-499f-a975-561ac9cf3c66"
+                src="https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/admin.jpg?alt=media&token=8cba35d8-a5c7-4f47-aa58-c1da66225898"
                 alt=""
               />
             </a>
