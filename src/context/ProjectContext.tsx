@@ -65,7 +65,7 @@ export function getProjets(): Project[] {
       subtitle:
         "Appoint admin dashboard is used by the administrator to manage all the services provided such as bookings, client accounts etc. Admin dashboard is written with React.js (Typescript).",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/admin.jpg?alt=media&token=b9ce4861-0463-499f-a975-561ac9cf3c66",
+        "https://firebasestorage.googleapis.com/v0/b/mrsisk-18e7b.appspot.com/o/admin.jpg?alt=media&token=8cba35d8-a5c7-4f47-aa58-c1da66225898",
       category: ProjectCategory.WEB,
       link: "https://github.com/mrsisk/appoint-admin",
     },
